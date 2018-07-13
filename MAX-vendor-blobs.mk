@@ -37,62 +37,37 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/umi/MAX/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/umi/MAX/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
-    vendor/umi/MAX/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
     vendor/umi/MAX/proprietary/bin/lsm303md:system/bin/lsm303md \
     vendor/umi/MAX/proprietary/bin/magd:system/bin/magd \
     vendor/umi/MAX/proprietary/bin/matv:system/bin/matv \
     vendor/umi/MAX/proprietary/bin/mc6420d:system/bin/mc6420d \
     vendor/umi/MAX/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/umi/MAX/proprietary/bin/mdlogger:system/bin/mdlogger \
-    vendor/umi/MAX/proprietary/bin/md_monitor:system/bin/md_monitor \
-    vendor/umi/MAX/proprietary/bin/md_monitor_ctrl:system/bin/md_monitor_ctrl \
-    vendor/umi/MAX/proprietary/bin/memorydumper:system/bin/memorydumper \
     vendor/umi/MAX/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/umi/MAX/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
     vendor/umi/MAX/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
-    vendor/umi/MAX/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/umi/MAX/proprietary/bin/mfv_ut:system/bin/mfv_ut \
-    vendor/umi/MAX/proprietary/bin/mmp:system/bin/mmp \
     vendor/umi/MAX/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/umi/MAX/proprietary/bin/msensord:system/bin/msensord \
     vendor/umi/MAX/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/umi/MAX/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
-    vendor/umi/MAX/proprietary/bin/mtkrild:system/bin/mtkrild \
-    vendor/umi/MAX/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/umi/MAX/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/umi/MAX/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/umi/MAX/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/umi/MAX/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/umi/MAX/proprietary/bin/nvram_proximity:system/bin/nvram_proximity \
     vendor/umi/MAX/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/umi/MAX/proprietary/bin/perf_native_test:system/bin/perf_native_test \
     vendor/umi/MAX/proprietary/bin/ppl_agent:system/bin/ppl_agent \
     vendor/umi/MAX/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/umi/MAX/proprietary/bin/pq:system/bin/pq \
     vendor/umi/MAX/proprietary/bin/program_binary_service:system/bin/program_binary_service \
     vendor/umi/MAX/proprietary/bin/qmcX983d:system/bin/qmcX983d \
     vendor/umi/MAX/proprietary/bin/radvd:system/bin/radvd \
-    vendor/umi/MAX/proprietary/bin/resize_ext4:system/bin/resize_ext4 \
-    vendor/umi/MAX/proprietary/bin/rs2spir:system/bin/rs2spir \
-    vendor/umi/MAX/proprietary/bin/rtt:system/bin/rtt \
-    vendor/umi/MAX/proprietary/bin/s62xd:system/bin/s62xd \
-    vendor/umi/MAX/proprietary/bin/sink:system/bin/sink \
-    vendor/umi/MAX/proprietary/bin/slpd:system/bin/slpd \
     vendor/umi/MAX/proprietary/bin/sn:system/bin/sn \
-    vendor/umi/MAX/proprietary/bin/source:system/bin/source \
-    vendor/umi/MAX/proprietary/bin/spir2cl:system/bin/spir2cl \
     vendor/umi/MAX/proprietary/bin/spm_loader:system/bin/spm_loader \
     vendor/umi/MAX/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
-    vendor/umi/MAX/proprietary/bin/superumount:system/bin/superumount \
     vendor/umi/MAX/proprietary/bin/terservice:system/bin/terservice \
-    vendor/umi/MAX/proprietary/bin/tertestclient:system/bin/tertestclient \
-    vendor/umi/MAX/proprietary/bin/thermal:system/bin/thermal \
-    vendor/umi/MAX/proprietary/bin/thermald:system/bin/thermald \
-    vendor/umi/MAX/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
-    vendor/umi/MAX/proprietary/bin/thermal_manager:system/bin/thermal_manager \
-    vendor/umi/MAX/proprietary/bin/tiny_mkswap:system/bin/tiny_mkswap \
     vendor/umi/MAX/proprietary/bin/vtservice:system/bin/vtservice \
-    vendor/umi/MAX/proprietary/bin/watchprops:system/bin/watchprops \
     vendor/umi/MAX/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/umi/MAX/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/umi/MAX/proprietary/bin/xlog:system/bin/xlog \
@@ -121,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/umi/MAX/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
     vendor/umi/MAX/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
-    vendor/umi/MAX/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/umi/MAX/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/umi/MAX/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
     vendor/umi/MAX/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
@@ -571,20 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
     vendor/umi/MAX/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/umi/MAX/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    vendor/umi/MAX/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    vendor/umi/MAX/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
     vendor/umi/MAX/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
