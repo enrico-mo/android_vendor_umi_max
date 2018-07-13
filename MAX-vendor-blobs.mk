@@ -138,10 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
     vendor/umi/MAX/proprietary/lib/liba3m.so:system/lib/liba3m.so \
     vendor/umi/MAX/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
-    vendor/umi/MAX/proprietary/lib/libaal_cust.so:system/lib/libaal_cust.so \
-    vendor/umi/MAX/proprietary/lib64/libaal_cust.so:system/lib64/libaal_cust.so \
-    vendor/umi/MAX/proprietary/lib/libaal.so:system/lib/libaal.so \
-    vendor/umi/MAX/proprietary/lib64/libaal.so:system/lib64/libaal.so \
     vendor/umi/MAX/proprietary/lib/libacdk.so:system/lib/libacdk.so \
     vendor/umi/MAX/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
     vendor/umi/MAX/proprietary/lib/libaed.so:system/lib/libaed.so \
@@ -184,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
     vendor/umi/MAX/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
     vendor/umi/MAX/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
-    vendor/umi/MAX/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/umi/MAX/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
     vendor/umi/MAX/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/umi/MAX/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
     vendor/umi/MAX/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
@@ -196,8 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
     vendor/umi/MAX/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
     vendor/umi/MAX/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
-    vendor/umi/MAX/proprietary/lib/libbluetooth_hw_test.so:system/lib/libbluetooth_hw_test.so \
-    vendor/umi/MAX/proprietary/lib64/libbluetooth_hw_test.so:system/lib64/libbluetooth_hw_test.so \
     vendor/umi/MAX/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
     vendor/umi/MAX/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
     vendor/umi/MAX/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
@@ -251,9 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/umi/MAX/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
     vendor/umi/MAX/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
-    vendor/umi/MAX/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
-    vendor/umi/MAX/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
-    vendor/umi/MAX/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
     vendor/umi/MAX/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
     vendor/umi/MAX/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
     vendor/umi/MAX/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
@@ -274,10 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
     vendor/umi/MAX/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
     vendor/umi/MAX/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
-    vendor/umi/MAX/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
-    vendor/umi/MAX/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
-    vendor/umi/MAX/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/umi/MAX/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/umi/MAX/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
     vendor/umi/MAX/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
     vendor/umi/MAX/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -549,11 +534,7 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
     vendor/umi/MAX/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    vendor/umi/MAX/proprietary/lib/libaal_cust.so:system/lib/libaal_cust.so \
-    vendor/umi/MAX/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
-    vendor/umi/MAX/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
     vendor/umi/MAX/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
-    vendor/umi/MAX/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
     vendor/umi/MAX/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
     vendor/umi/MAX/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/umi/MAX/proprietary/lib/libDR.so:system/lib/libDR.so \
