@@ -178,12 +178,14 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
     vendor/umi/MAX/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/umi/MAX/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
+    vendor/umi/MAX/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/umi/MAX/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
     vendor/umi/MAX/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
     vendor/umi/MAX/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/umi/MAX/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
     vendor/umi/MAX/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/umi/MAX/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
+    vendor/umi/MAX/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
     vendor/umi/MAX/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/umi/MAX/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
     vendor/umi/MAX/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
@@ -605,6 +607,8 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umi/MAX/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/umi/MAX/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/umi/MAX/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
+    vendor/umi/MAX/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
     vendor/umi/MAX/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/umi/MAX/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/umi/MAX/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
