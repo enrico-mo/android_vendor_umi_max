@@ -291,16 +291,12 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libeffecthal.base.so:system/lib64/libeffecthal.base.so \
     vendor/umi/MAX/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
     vendor/umi/MAX/proprietary/lib64/libeffecthal.JPG.so:system/lib64/libeffecthal.JPG.so \
-    vendor/umi/MAX/proprietary/lib/libem_audio_jni.so:system/lib/libem_audio_jni.so \
-    vendor/umi/MAX/proprietary/lib64/libem_audio_jni.so:system/lib64/libem_audio_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
-    vendor/umi/MAX/proprietary/lib/libem_mbim_jni.so:system/lib/libem_mbim_jni.so \
-    vendor/umi/MAX/proprietary/lib64/libem_mbim_jni.so:system/lib64/libem_mbim_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_modem_jni.so:system/lib64/libem_modem_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
@@ -311,25 +307,13 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
     vendor/umi/MAX/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
-    vendor/umi/MAX/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
-    vendor/umi/MAX/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
     vendor/umi/MAX/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
     vendor/umi/MAX/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
-    vendor/umi/MAX/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
-    vendor/umi/MAX/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
-    vendor/umi/MAX/proprietary/lib/libfeatureio.jpg.so:system/lib/libfeatureio.jpg.so \
-    vendor/umi/MAX/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
     vendor/umi/MAX/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/umi/MAX/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/umi/MAX/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/umi/MAX/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/umi/MAX/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    vendor/umi/MAX/proprietary/lib/libflashlightjni.so:system/lib/libflashlightjni.so \
-    vendor/umi/MAX/proprietary/lib64/libflashlightjni.so:system/lib64/libflashlightjni.so \
-    vendor/umi/MAX/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
-    vendor/umi/MAX/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
-    vendor/umi/MAX/proprietary/lib/libfpClient_sw.so:system/lib/libfpClient_sw.so \
-    vendor/umi/MAX/proprietary/lib64/libfpClient_sw.so:system/lib64/libfpClient_sw.so \
     vendor/umi/MAX/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so \
     vendor/umi/MAX/proprietary/lib/libgas.so:system/lib/libgas.so \
     vendor/umi/MAX/proprietary/lib64/libgas.so:system/lib64/libgas.so \
@@ -341,48 +325,27 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
     vendor/umi/MAX/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/umi/MAX/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
-    vendor/umi/MAX/proprietary/lib/libgsensorcali_jni.so:system/lib/libgsensorcali_jni.so \
-    vendor/umi/MAX/proprietary/lib64/libgsensorcali_jni.so:system/lib64/libgsensorcali_jni.so \
-    vendor/umi/MAX/proprietary/lib/libhallwindowjni.so:system/lib/libhallwindowjni.so \
-    vendor/umi/MAX/proprietary/lib64/libhallwindowjni.so:system/lib64/libhallwindowjni.so \
     vendor/umi/MAX/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
     vendor/umi/MAX/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
-    vendor/umi/MAX/proprietary/lib/libhevce_sb.ca7.android.so:system/lib/libhevce_sb.ca7.android.so \
-    vendor/umi/MAX/proprietary/lib64/libhevce_sb.ca7.android.so:system/lib64/libhevce_sb.ca7.android.so \
-    vendor/umi/MAX/proprietary/lib64/libhevce_sb.ca7.android.so:system/lib64/libhevce_sb.ca7.android.so \
     vendor/umi/MAX/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/umi/MAX/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
     vendor/umi/MAX/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/umi/MAX/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
     vendor/umi/MAX/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/umi/MAX/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
-    vendor/umi/MAX/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
-    vendor/umi/MAX/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
-    vendor/umi/MAX/proprietary/lib/libimsma.so:system/lib/libimsma.so \
-    vendor/umi/MAX/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
-    vendor/umi/MAX/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
-    vendor/umi/MAX/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
     vendor/umi/MAX/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/umi/MAX/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
     vendor/umi/MAX/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/umi/MAX/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/umi/MAX/proprietary/lib/libja3m.so:system/lib/libja3m.so \
     vendor/umi/MAX/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
-    vendor/umi/MAX/proprietary/lib/libjhead_jni.so:system/lib/libjhead_jni.so \
-    vendor/umi/MAX/proprietary/lib64/libjhead_jni.so:system/lib64/libjhead_jni.so \
-    vendor/umi/MAX/proprietary/lib/libjhead.so:system/lib/libjhead.so \
-    vendor/umi/MAX/proprietary/lib64/libjhead.so:system/lib64/libjhead.so \
     vendor/umi/MAX/proprietary/lib64/libjni_jpegdecoder.so:system/lib64/libjni_jpegdecoder.so \
-    vendor/umi/MAX/proprietary/lib/libjni_lomoeffect.so:system/lib/libjni_lomoeffect.so \
-    vendor/umi/MAX/proprietary/lib64/libjni_lomoeffect.so:system/lib64/libjni_lomoeffect.so \
     vendor/umi/MAX/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
     vendor/umi/MAX/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
     vendor/umi/MAX/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/umi/MAX/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
     vendor/umi/MAX/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/umi/MAX/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
-    vendor/umi/MAX/proprietary/lib/libled_testjni.so:system/lib/libled_testjni.so \
-    vendor/umi/MAX/proprietary/lib64/libled_testjni.so:system/lib64/libled_testjni.so \
     vendor/umi/MAX/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/umi/MAX/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
     vendor/umi/MAX/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
@@ -540,25 +503,9 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
     vendor/umi/MAX/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/umi/MAX/proprietary/lib/libDR.so:system/lib/libDR.so \
-    vendor/umi/MAX/proprietary/lib/libext2_blkid.so:system/lib/libext2_blkid.so \
-    vendor/umi/MAX/proprietary/lib/libext2_com_err.so:system/lib/libext2_com_err.so \
-    vendor/umi/MAX/proprietary/lib/libext2_e2p.so:system/lib/libext2_e2p.so \
-    vendor/umi/MAX/proprietary/lib/libext2fs.so:system/lib/libext2fs.so \
-    vendor/umi/MAX/proprietary/lib/libext2_profile.so:system/lib/libext2_profile.so \
-    vendor/umi/MAX/proprietary/lib/libext2_uuid.so:system/lib/libext2_uuid.so \
     vendor/umi/MAX/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
-    vendor/umi/MAX/proprietary/lib/libfpService_sw.so:system/lib/libfpService_sw.so \
     vendor/umi/MAX/proprietary/lib/libfusion.so:system/lib/libfusion.so \
-    vendor/umi/MAX/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
-    vendor/umi/MAX/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/umi/MAX/proprietary/lib/libhevce_sb.ca7.android.so:system/lib/libhevce_sb.ca7.android.so \
     vendor/umi/MAX/proprietary/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
-    vendor/umi/MAX/proprietary/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
-    vendor/umi/MAX/proprietary/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/umi/MAX/proprietary/lib/libjni_jpegstream.so:system/lib/libjni_jpegstream.so \
-    vendor/umi/MAX/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
-    vendor/umi/MAX/proprietary/lib/liblic_divx.so:system/lib/liblic_divx.so \
-    vendor/umi/MAX/proprietary/lib/liblic_s263.so:system/lib/liblic_s263.so \
     vendor/umi/MAX/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
     vendor/umi/MAX/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/umi/MAX/proprietary/lib/libmnl.so:system/lib/libmnl.so \
