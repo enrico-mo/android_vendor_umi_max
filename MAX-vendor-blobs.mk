@@ -100,25 +100,11 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
     vendor/umi/MAX/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/umi/MAX/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
     vendor/umi/MAX/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
     vendor/umi/MAX/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
-    vendor/umi/MAX/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
-    vendor/umi/MAX/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-    vendor/umi/MAX/proprietary/lib64/hw/camera.default.so:system/lib64/hw/camera.default.so \
     vendor/umi/MAX/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
     vendor/umi/MAX/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
-    vendor/umi/MAX/proprietary/lib64/hw/fingerprint_madev.default.so:system/lib64/hw/fingerprint_madev.default.so \
+    vendor/umi/MAX/proprietary/lib64/hw/fingerprint_madev.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/umi/MAX/proprietary/lib64/hw/fingerprint_sunwave.default.so:system/lib64/hw/fingerprint_sunwave.default.so \
     vendor/umi/MAX/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
     vendor/umi/MAX/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
@@ -348,28 +334,8 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
     vendor/umi/MAX/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/umi/MAX/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
-    vendor/umi/MAX/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
-    vendor/umi/MAX/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
-    vendor/umi/MAX/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
-    vendor/umi/MAX/proprietary/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
-    vendor/umi/MAX/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
-    vendor/umi/MAX/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
-    vendor/umi/MAX/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
-    vendor/umi/MAX/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
-    vendor/umi/MAX/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
-    vendor/umi/MAX/proprietary/lib/libmal.so:system/lib/libmal.so \
-    vendor/umi/MAX/proprietary/lib64/libmal.so:system/lib64/libmal.so \
     vendor/umi/MAX/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/umi/MAX/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
-    vendor/umi/MAX/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
-    vendor/umi/MAX/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
     vendor/umi/MAX/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
     vendor/umi/MAX/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
     vendor/umi/MAX/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
@@ -379,8 +345,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libmemorydumper.so:system/lib64/libmemorydumper.so \
     vendor/umi/MAX/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/umi/MAX/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
-    vendor/umi/MAX/proprietary/lib/libminiui.so:system/lib/libminiui.so \
-    vendor/umi/MAX/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
     vendor/umi/MAX/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
     vendor/umi/MAX/proprietary/lib64/libmmprofile_jni.so:system/lib64/libmmprofile_jni.so \
     vendor/umi/MAX/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
@@ -498,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
-    vendor/umi/MAX/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/umi/MAX/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/umi/MAX/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
     vendor/umi/MAX/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
