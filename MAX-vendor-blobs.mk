@@ -294,13 +294,8 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/umi/MAX/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
     vendor/umi/MAX/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
-    vendor/umi/MAX/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
     vendor/umi/MAX/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
-    vendor/umi/MAX/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/umi/MAX/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
-    vendor/umi/MAX/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
-    vendor/umi/MAX/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    vendor/umi/MAX/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so \
     vendor/umi/MAX/proprietary/lib/libgas.so:system/lib/libgas.so \
     vendor/umi/MAX/proprietary/lib64/libgas.so:system/lib64/libgas.so \
     vendor/umi/MAX/proprietary/lib/libged.so:system/lib/libged.so \
@@ -325,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/umi/MAX/proprietary/lib/libja3m.so:system/lib/libja3m.so \
     vendor/umi/MAX/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
-    vendor/umi/MAX/proprietary/lib64/libjni_jpegdecoder.so:system/lib64/libjni_jpegdecoder.so \
     vendor/umi/MAX/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
     vendor/umi/MAX/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
     vendor/umi/MAX/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
@@ -411,36 +405,19 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/umi/MAX/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
     vendor/umi/MAX/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
-    vendor/umi/MAX/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/umi/MAX/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
-    vendor/umi/MAX/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/umi/MAX/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    vendor/umi/MAX/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    vendor/umi/MAX/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
     vendor/umi/MAX/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
     vendor/umi/MAX/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
     vendor/umi/MAX/proprietary/lib/libudf.so:system/lib/libudf.so \
     vendor/umi/MAX/proprietary/lib64/libudf.so:system/lib64/libudf.so \
     vendor/umi/MAX/proprietary/lib/libui.so:system/lib/libui.so \
     vendor/umi/MAX/proprietary/lib64/libui.so:system/lib64/libui.so \
-    vendor/umi/MAX/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
-    vendor/umi/MAX/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/umi/MAX/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/umi/MAX/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
     vendor/umi/MAX/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
-    vendor/umi/MAX/proprietary/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
     vendor/umi/MAX/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/umi/MAX/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
-    vendor/umi/MAX/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
-    vendor/umi/MAX/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so \
     vendor/umi/MAX/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
     vendor/umi/MAX/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
-    vendor/umi/MAX/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
-    vendor/umi/MAX/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
-    vendor/umi/MAX/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
-    vendor/umi/MAX/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/umi/MAX/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
-    vendor/umi/MAX/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/umi/MAX/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
     vendor/umi/MAX/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/umi/MAX/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
@@ -476,17 +453,9 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
     vendor/umi/MAX/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
     vendor/umi/MAX/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/umi/MAX/proprietary/lib/libvie_jni.so:system/lib/libvie_jni.so \
-    vendor/umi/MAX/proprietary/lib/libvie.so:system/lib/libvie.so \
-    vendor/umi/MAX/proprietary/lib/libvixl.so:system/lib/libvixl.so \
-    vendor/umi/MAX/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
-    vendor/umi/MAX/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
     vendor/umi/MAX/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/umi/MAX/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/umi/MAX/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/umi/MAX/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
-    vendor/umi/MAX/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
-    vendor/umi/MAX/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
     vendor/umi/MAX/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/umi/MAX/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/umi/MAX/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
