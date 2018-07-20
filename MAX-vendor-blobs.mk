@@ -104,7 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
     vendor/umi/MAX/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
     vendor/umi/MAX/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
-    vendor/umi/MAX/proprietary/lib64/hw/fingerprint_madev.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/umi/MAX/proprietary/lib64/hw/fingerprint_madev.default.so:system/lib64/hw/fingerprint_madev.default.so \
     vendor/umi/MAX/proprietary/lib64/hw/fingerprint_sunwave.default.so:system/lib64/hw/fingerprint_sunwave.default.so \
     vendor/umi/MAX/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
     vendor/umi/MAX/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
@@ -367,18 +367,10 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/umi/MAX/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
-    vendor/umi/MAX/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
-    vendor/umi/MAX/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
     vendor/umi/MAX/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/umi/MAX/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
-    vendor/umi/MAX/proprietary/lib/libmtksqlite3_android.so:system/lib/libmtksqlite3_android.so \
-    vendor/umi/MAX/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
-    vendor/umi/MAX/proprietary/lib/libmtksqlite3_custom.so:system/lib/libmtksqlite3_custom.so \
-    vendor/umi/MAX/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
     vendor/umi/MAX/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
     vendor/umi/MAX/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
-    vendor/umi/MAX/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
-    vendor/umi/MAX/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
     vendor/umi/MAX/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
     vendor/umi/MAX/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
     vendor/umi/MAX/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
@@ -395,8 +387,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
     vendor/umi/MAX/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/umi/MAX/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
-    vendor/umi/MAX/proprietary/lib/libOpenCLIcd.so:system/lib/libOpenCLIcd.so \
-    vendor/umi/MAX/proprietary/lib64/libOpenCLIcd.so:system/lib64/libOpenCLIcd.so \
     vendor/umi/MAX/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/umi/MAX/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
     vendor/umi/MAX/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
@@ -412,18 +402,8 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
     vendor/umi/MAX/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
     vendor/umi/MAX/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
-    vendor/umi/MAX/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
-    vendor/umi/MAX/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
-    vendor/umi/MAX/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
-    vendor/umi/MAX/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
-    vendor/umi/MAX/proprietary/lib/libRSDriver_mtk.so:system/lib/libRSDriver_mtk.so \
-    vendor/umi/MAX/proprietary/lib64/libRSDriver_mtk.so:system/lib64/libRSDriver_mtk.so \
-    vendor/umi/MAX/proprietary/lib/libsink.so:system/lib/libsink.so \
-    vendor/umi/MAX/proprietary/lib64/libsink.so:system/lib64/libsink.so \
     vendor/umi/MAX/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
     vendor/umi/MAX/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
-    vendor/umi/MAX/proprietary/lib/libsource.so:system/lib/libsource.so \
-    vendor/umi/MAX/proprietary/lib64/libsource.so:system/lib64/libsource.so \
     vendor/umi/MAX/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/umi/MAX/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/umi/MAX/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -473,12 +453,10 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/umi/MAX/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/umi/MAX/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
-    vendor/umi/MAX/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
     vendor/umi/MAX/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
     vendor/umi/MAX/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
     vendor/umi/MAX/proprietary/lib/libm.so:system/lib/libm.so \
     vendor/umi/MAX/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
-    vendor/umi/MAX/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -492,9 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/umi/MAX/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/umi/MAX/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
-    vendor/umi/MAX/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
-    vendor/umi/MAX/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
-    vendor/umi/MAX/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
     vendor/umi/MAX/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/umi/MAX/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/umi/MAX/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
