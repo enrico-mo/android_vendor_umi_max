@@ -19,6 +19,5 @@
 PRODUCT_PACKAGES += \
     YGPS
 
-# Proprietary dependencies go here
-
+# Pick up overlay for features that depend on non-open-source files
 $(call inherit-product, vendor/umi/MAX/MAX-vendor-blobs.mk)
